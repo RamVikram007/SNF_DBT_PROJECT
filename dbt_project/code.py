@@ -1,1 +1,0 @@
-print("Sample code for dbt_project/code.py")
