@@ -27,3 +27,11 @@ models:
     Bronze:
       +schema: bronze
       +materialized: table
+    Silver:
+      +schema: silver
+      +materialized: table
+    gold:
+      +schema: gold
+      +materialized: table
+      ephemeral:
+        +materialized: ephemeral
